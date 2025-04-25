@@ -24,9 +24,10 @@ const SingUp = (porps) => {
         <button className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none w-full focus:shadow-outline mt-7" type="button">Sign Up</button>
           <p className = "text-center text-gray-500 text-xs mt-4">Already have an account? <a href="Login.jsx" className = "text-blue-500 hover:text-blue-800">Login </a>
           </p>
+          <p className = "text-center text-gray-500 text-xs mt-4">By signing up, you agree to our <a href="#" className = "text-blue-500 hover:text-blue-800">Terms of Service</a> and <a href="#" className = "text-blue-500 hover:text-blue-800">Privacy Policy</a></p>
           <p className = "text-center text-gray-500 text-xs mt-4 ">Forgot your password? <a href="#" className = "text-blue-500 hover:text-blue-800" onCanPlayThrough={login.porps}>Reset it</a> </p>
          <button className = "  text-blue-500 font-thin hover:bg-blue-300   w-full mt-2">Continue With Google</button>
-
+        
         </form>
         </div>
     )
